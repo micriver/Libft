@@ -6,7 +6,7 @@
 #    By: mirivera <mirivera@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/02/20 09:12:29 by mirivera          #+#    #+#              #
-#    Updated: 2019/03/08 20:06:07 by mirivera         ###   ########.fr        #
+#    Updated: 2019/03/08 20:23:45 by mirivera         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,7 +47,7 @@ ft_swap.o ft_rot13.o ft_rotone.o \
 all: $(NAME)
 
 $(NAME): 
-	@$(CC) $(CFLAGS) -I $(HEADERS) -c $(SRC)
+	@$(CC) $(CFLAGS) -c $(SRC) -I $(HEADERS)
 	@ar rc $(NAME) $(OBJECTS)
 	@ranlib $(NAME)
 
@@ -58,5 +58,3 @@ fclean: clean
 	@rm -rf $(NAME)
 
 re: fclean all
-
-.PHONY: make all clean fclean re

@@ -6,7 +6,7 @@
 /*   By: mirivera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/28 09:50:34 by mirivera          #+#    #+#             */
-/*   Updated: 2019/03/03 19:53:41 by mirivera         ###   ########.fr       */
+/*   Updated: 2019/03/08 21:05:37 by mirivera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	{
 		while (s[i])
 		{
-			fresh[i] = (f)(i, s[i]);
+			fresh[i] = f(i, s[i]);
 			i++;
 		}
 		fresh[i] = '\0';

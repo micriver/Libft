@@ -6,7 +6,7 @@
 /*   By: mirivera <mirivera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/15 11:17:33 by mirivera          #+#    #+#             */
-/*   Updated: 2019/03/07 19:52:26 by mirivera         ###   ########.fr       */
+/*   Updated: 2019/03/08 21:02:03 by mirivera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,11 +84,9 @@ void			ft_lstdel(t_list **alst, void (*del)(void *, size_t));
 void			ft_lstadd(t_list **alst, t_list *new);
 void			ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list			*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
-
 int				ft_isspace(int i);
 int				ft_swap(int *a, int *b);
 void			ft_rot13(char *str);
 void			ft_rotone(char *str);
-char			*ft_first_word(char *str);
 
 #endif

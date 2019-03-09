@@ -6,7 +6,7 @@
 /*   By: mirivera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/28 12:25:23 by mirivera          #+#    #+#             */
-/*   Updated: 2019/02/28 14:46:09 by mirivera         ###   ########.fr       */
+/*   Updated: 2019/03/08 21:12:11 by mirivera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,8 @@ char	*ft_strsub(char const *s, unsigned int start, size_t len)
 	size_t	i;
 	char	*substring;
 
-	if (!(substring = ft_memalloc(len + 1)))
-		return (NULL);
 	i = 0;
+	substring = (char *)malloc((len + 1) * sizeof(char));
 	if (substring && s)
 	{
 		while (i < len)
@@ -34,8 +33,8 @@ char	*ft_strsub(char const *s, unsigned int start, size_t len)
 			i++;
 			start++;
 		}
+		substring[i] = '\0';
 		return (substring);
 	}
-	else
-		return (NULL);
+	return (NULL);
 }

@@ -6,7 +6,7 @@
 /*   By: mirivera <mirivera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/29 17:11:58 by mirivera          #+#    #+#             */
-/*   Updated: 2019/02/28 09:38:39 by mirivera         ###   ########.fr       */
+/*   Updated: 2019/03/08 21:26:07 by mirivera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,22 +15,17 @@
 void	ft_putnbr(int nb)
 {
 	if (nb == -2147483648)
+		ft_putstr("-2147483648");
+	else if (nb < 0)
 	{
 		ft_putchar('-');
-		ft_putchar('2');
-		ft_putnbr(147483648);
-		return ;
+		ft_putnbr(-nb);
 	}
-	if (nb < 0)
-	{
-		ft_putchar('-');
-		nb *= -1;
-	}
-	if (nb < 10)
-		ft_putchar(nb + 48);
-	else
+	else if (nb > 9)
 	{
 		ft_putnbr(nb / 10);
 		ft_putnbr(nb % 10);
 	}
+	else
+		ft_putchar(nb + '0');
 }

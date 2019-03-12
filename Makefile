@@ -6,7 +6,7 @@
 #    By: mirivera <mirivera@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/02/20 09:12:29 by mirivera          #+#    #+#              #
-#    Updated: 2019/03/08 21:02:36 by mirivera         ###   ########.fr        #
+#    Updated: 2019/03/11 17:25:10 by mirivera         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,6 +15,8 @@ NAME = libft.a
 HEADER = libft.h
 
 FLAGS = -Wall -Wextra -Werror
+
+BLUE = '\033[1;34m'
 
 SRCS = ft_isascii.c ft_lstdelone.c ft_memchr.c ft_putchar.c ft_putstr.c	ft_strcpy.c ft_strjoin.c ft_strncmp.c ft_strsplit.c \
 ft_isdigit.c ft_lstiter.c ft_memcmp.c ft_putchar_fd.c ft_putstr_fd.c ft_strdel.c ft_strlcat.c ft_strncpy.c ft_strstr.c  ft_atoi.c \

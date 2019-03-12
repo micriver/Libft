@@ -6,7 +6,7 @@
 /*   By: mirivera <mirivera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/15 11:17:33 by mirivera          #+#    #+#             */
-/*   Updated: 2019/03/08 21:02:03 by mirivera         ###   ########.fr       */
+/*   Updated: 2019/03/11 17:15:01 by mirivera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,6 +61,7 @@ void			ft_putchar_fd(char c, int fd);
 void			ft_putendl(char const *s);
 void			ft_putstr_fd(char const *s, int fd);
 void			ft_putendl_fd(char const *s, int fd);
+void			ft_putnbr(int n);
 void			ft_putnbr_fd(int n, int fd);
 void			*ft_memalloc(size_t size);
 void			ft_memdel(void **ap);

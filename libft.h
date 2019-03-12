@@ -6,7 +6,7 @@
 /*   By: mirivera <mirivera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/15 11:17:33 by mirivera          #+#    #+#             */
-/*   Updated: 2019/03/11 17:15:01 by mirivera         ###   ########.fr       */
+/*   Updated: 2019/03/12 15:12:39 by mirivera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,5 +89,7 @@ int				ft_isspace(int i);
 int				ft_swap(int *a, int *b);
 void			ft_rot13(char *str);
 void			ft_rotone(char *str);
+char			*ft_first_word(char *str);
+char			*ft_search_and_replace(char *s, char c, char d);
 
 #endif

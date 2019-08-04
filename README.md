@@ -1,6 +1,6 @@
 # Libft
 
-![LIBFT_LOGO](docs/libft_path.png)
+![LIBFT_LOGO](assets/libft_path.png)
 
 This is my first project in the [42 Silicon Valley](http://42.us.org) curriculum. As incoming students, we're tasked with re-coding a portion of the ```standard libc``` functions, as defined by their man pages. We're also tasked with coding other useful functions from a given set of their descriptions.
 

@@ -36,8 +36,8 @@ You can compile the library using the Makefile.
 Command       |  Action
 :-------------|:-------------
 `make`        | Compile the library.
-`make clean`  | Remove objects files.
-`make fclean` | Remove objects files and the library.
+`make clean`  | Remove object files.
+`make fclean` | Remove object files and the library.
 `make re`     | Re-compile the library.
 
 ## Usage

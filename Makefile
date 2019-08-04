@@ -6,7 +6,7 @@
 #    By: mirivera <mirivera@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/02/20 09:12:29 by mirivera          #+#    #+#              #
-#    Updated: 2019/08/03 18:15:07 by mirivera         ###   ########.fr        #
+#    Updated: 2019/08/03 19:52:05 by mirivera         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -40,5 +40,13 @@ fclean: clean
 	@rm -rf $(NAME)
 
 re: fclean all
+
+#FILES = read -p "Input file(s): " 
+
+norme:
+	@#@read -p "Input file(s): " files; 
+	@echo 'Le Norme...'
+	@norminette -R CheckForbiddenSourceHeader $(HEADER) $(addprefix srcs/,$(SRCS)) 
+	@#@norminette -R CheckForbiddenSourceHeader $$files;
 
 .PHONY: make all clean fclean re

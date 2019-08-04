@@ -18,7 +18,7 @@ Per the project, all of our functions must begin with ```ft_``` for, _Forty-Two_
 **Project Document:**
 [Libft.pdf](https://github.com/micriver/docs/libft.en%20.pdf)
 
-All functions were created according to 42's coding standard,
+All functions were written according to 42's coding standard,
 [the Norm](https://github.com/micriver/docs/norme.en%20.pdf).
 
 

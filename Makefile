@@ -6,13 +6,13 @@
 #    By: mirivera <mirivera@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/02/20 09:12:29 by mirivera          #+#    #+#              #
-#    Updated: 2019/08/03 17:09:53 by mirivera         ###   ########.fr        #
+#    Updated: 2019/08/03 17:22:22 by mirivera         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
 
-HEADER = libft.h
+HEADER = header/
 
 FLAGS = -Wall -Wextra -Werror
 
@@ -24,18 +24,12 @@ ft_memalloc.c ft_memmove.c ft_putnbr.c ft_strclr.c ft_striter.c ft_strmapi.c ft_
 ft_memccpy.c ft_memset.c ft_putnbr_fd.c ft_strcmp.c ft_striteri.c ft_strncat.c ft_strrchr.c ft_toupper.c ft_isspace.c ft_rotone.c \
 ft_rot13.c ft_swap.c ft_first_word.c ft_search_and_replace.c
 
-OBJS = ft_isascii.o ft_lstdelone.o ft_memchr.o ft_putchar.o ft_putstr.o ft_strcpy.o ft_strjoin.o ft_strncmp.o ft_strsplit.o \
-ft_isdigit.o ft_lstiter.o ft_memcmp.o ft_putchar_fd.o ft_putstr_fd.o ft_strdel.o ft_strlcat.o ft_strncpy.o ft_strstr.o ft_atoi.o \
-ft_isprint.o ft_lstmap.o ft_memcpy.o ft_putendl.o ft_strcat.o ft_strdup.o ft_strlen.o ft_strnequ.o ft_strsub.o ft_bzero.o ft_itoa.o \
-ft_lstnew.o ft_memdel.o ft_putendl_fd.o ft_strchr.o ft_strequ.o ft_strmap.o ft_strnew.o ft_strtrim.o ft_isalnum.o ft_lstadd.o \
-ft_memalloc.o ft_memmove.o ft_putnbr.o ft_strclr.o ft_striter.o ft_strmapi.o ft_strnstr.o ft_tolower.o ft_isalpha.o ft_lstdel.o \
-ft_memccpy.o ft_memset.o ft_putnbr_fd.o ft_strcmp.o ft_striteri.o ft_strncat.o ft_strrchr.o ft_toupper.o ft_isspace.o ft_rotone.o \
-ft_rot13.o ft_swap.o ft_first_word.o ft_search_and_replace.o
+OBJS = $(patsubst %.c,%.o,$(SRCS))
 
 all: $(NAME)
 
 $(NAME):
-	@gcc $(FLAGS) -c $(SRCS) -I $(HEADER)
+	@gcc $(FLAGS) -c $(addprefix srcs/,$(SRCS)) -I $(HEADER)
 	@ar rc $(NAME) $(OBJS)
 	@ranlib $(NAME)
 

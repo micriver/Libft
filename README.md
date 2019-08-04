@@ -6,7 +6,7 @@
 
 # Libft
 
-This is my first project in the [42 Silicon Valley](http://42.us.org) curriculum. As incoming students, we're tasked with re-coding a portion of standard ```libc``` functions, as defined by their man pages. We're also tasked with coding other useful functions from a given set of their descriptions.
+This is my first project in the [42 Silicon Valley](http://42.us.org) curriculum. As incoming students, we're tasked with re-coding a set of standard ```libc``` functions, as defined by their man pages. We're also tasked with coding other useful functions from a given set of their descriptions.
 
 This project forces us to re-write these standard ```libc``` functions so that we may further understand and better implement them in future C projects.
 

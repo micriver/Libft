@@ -1,12 +1,7 @@
 <p align="center">
   <div align="center">
-    ![LIBFT_LOGO]<img src="assets/libft_path_50.png" width="400px"</img> 
+   <img src="assets/libft_path_50.png" width="400px"</img> 
 </div>(assets/libft_path_50.png)
-</p>
-
-
-<p align="center">
-  ![LIBFT_LOGO](assets/libft_path_50.png)
 </p>
 
 # Libft

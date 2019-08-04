@@ -1,7 +1,7 @@
 <p align="center">
   <div align="center">
    <img src="assets/libft_path.png" width="425px"</img><br>
-    <em><i>You're first libary...</i></em>
+    <em><i>Your first libary...</i></em>
   </div>
 </p>
 

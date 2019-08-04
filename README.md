@@ -1,6 +1,6 @@
 <p align="center">
   <div align="center">
-   <img src="assets/libft_path.png" width="415px"</img> 
+   <img src="assets/libft_path.png" width="425px"</img> 
   </div>
 </p>
 

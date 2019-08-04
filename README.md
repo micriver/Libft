@@ -1,7 +1,7 @@
 <p align="center">
   <div align="center">
-   <img src="assets/libft_path.png" width="350px"</img> 
-</div>
+   <img src="assets/libft_path.png" width="415px"</img> 
+  </div>
 </p>
 
 # Libft

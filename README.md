@@ -41,7 +41,7 @@ Command       |  Action
 
 ## Usage
 
-After compilation, the library is used like this:
+After compilation, the library can be used alongside your programs with the following command:
 
 ```bash
 gcc libft.a -I ./header <your_file.c> -o <output_name>

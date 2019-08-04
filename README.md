@@ -7,13 +7,13 @@
 
 # Libft
 
-This is my first project in the [42 Silicon Valley](http://42.us.org) curriculum. As incoming students, we're tasked with re-coding a set of standard ```libc``` functions, as defined by their man pages. We're also tasked with coding other useful functions from a given set of their descriptions.
+This is my first project in the [42 Silicon Valley](http://42.us.org) curriculum. As incoming students, we're tasked with re-coding a set of standard ```libc``` functions, as defined by their man pages. We're also tasked with coding other useful functions from a given set of descriptions.
 
 This project forces us to re-write these standard ```libc``` functions so that we may further understand and better implement them in future C projects.
 
 I'll be using this library for the duration of my studies here at 42. We're encouraged to continuously develop it as we work through the curriculum.
 
-Per the curriculum, all of our functions must begin with ```ft_``` for, _Forty-Two_.
+Per the project, all of our functions must begin with ```ft_``` for, _Forty-Two_.
 
 **Project Document:**
 [Libft.pdf](https://github.com/micriver/docs/libft.en%20.pdf)

@@ -31,7 +31,7 @@ git clone https://github.com/micriver/Libft.git
 cd Libft
 ```
 
-You can compile the library using the Makefile.
+You can compile the library using the Makefile:
 
 Command       |  Action
 :-------------|:-------------

@@ -18,5 +18,8 @@
 #Mains
 *main.c
 
+#Dot_Files
+.*
+
 #Misc files
 *.swp

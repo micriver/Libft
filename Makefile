@@ -6,7 +6,7 @@
 #    By: mirivera <mirivera@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/02/20 09:12:29 by mirivera          #+#    #+#              #
-#    Updated: 2019/08/03 16:49:19 by mirivera         ###   ########.fr        #
+#    Updated: 2019/08/03 17:09:53 by mirivera         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,14 +35,16 @@ ft_rot13.o ft_swap.o ft_first_word.o ft_search_and_replace.o
 all: $(NAME)
 
 $(NAME):
-	gcc $(FLAGS) -c $(SRCS) -I $(HEADER)
-	ar rc $(NAME) $(OBJS)
-	ranlib $(NAME)
+	@gcc $(FLAGS) -c $(SRCS) -I $(HEADER)
+	@ar rc $(NAME) $(OBJS)
+	@ranlib $(NAME)
 
 clean:
-	rm -rf $(OBJS)
+	@rm -rf $(OBJS)
 
 fclean: clean
-	rm -rf $(NAME)
+	@rm -rf $(NAME)
 
 re: fclean all
+
+.PHONY: make all clean fclean re

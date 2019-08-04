@@ -6,7 +6,7 @@
 /*   By: mirivera <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/20 11:57:19 by mirivera          #+#    #+#             */
-/*   Updated: 2019/03/05 17:07:59 by mirivera         ###   ########.fr       */
+/*   Updated: 2019/04/08 20:48:14 by mirivera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,6 @@ char	*ft_strcpy(char *dest, const char *src)
 		dest[i] = src[i];
 		i++;
 	}
-	dest[i] = src[i];
+	dest[i] = '\0';
 	return (dest);
 }

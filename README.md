@@ -1,4 +1,6 @@
-![LIBFT_LOGO](assets/libft_path_50.png)
+<p align="center">
+  ![LIBFT_LOGO](assets/libft_path_50.png)
+</p>
 
 # Libft
 

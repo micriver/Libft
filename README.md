@@ -1,4 +1,4 @@
-![LIBFT_LOGO](assets/libft_path.png)
+![LIBFT_LOGO](assets/libft_path_50.png)
 
 # Libft
 
